@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="public/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="public/js/jquery.min.js"></script>
+        <script src="public/js/fontawesome-all.min.js"></script>
+        <link href="public/css/styles.css" rel="stylesheet"/>
+        <title>
+            Chả Cá Lagi
+       	</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+            <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+            <meta content="Chả Cá Lagi" name="keywords"/>
+        </meta>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="nav-top">
+                <div class="nav-top-left">
+                	<div class="w3l_search">
+                		 <form action="#" method="post">
+							<input type="text" name="Product" value="Search a product..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
+							<input type="submit" value=" ">
+						</form>
+                	</div>
+                </div>
+                <div class="nav-top-right">
+                    <div class="product_list_header">
+                    	<form action="#" method="post" class="last">
+			                <fieldset>
+			                    <input type="hidden" name="cmd" value="_cart">
+			                    <input type="hidden" name="display" value="1">
+			                    <input type="submit" name="submit" value="View your cart" class="button">
+			                </fieldset>
+            			</form>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-menu">
+                <div class="logo-menu-left">
+                    <div class="w3ls_logo">
+						<h1><a href="index.html"><span>Chaca</span> Lagi</a></h1>
+					</div>
+                </div>
+                <div class="logo-menu-right">
+                	<div class="main-menu-slide-text">
+                		<div style="margin: auto; height: 100%;">
+                			<h3>SLIDE TEXT</h3>
+                		</div>
+                	</div>
+                    <div class="main-menu">
+                    	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+						  <a class="navbar-brand" href="#">Navbar</a>
+						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon"></span>
+						  </button>
+
+						  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+						    <ul class="navbar-nav mr-auto">
+						      <li class="nav-item active">
+						        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						      </li>
+						      <li class="nav-item">
+						        <a class="nav-link" href="#">Link</a>
+						      </li>
+						      <li class="nav-item dropdown">
+						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						          Dropdown
+						        </a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						          <a class="dropdown-item" href="#">Action</a>
+						          <a class="dropdown-item" href="#">Another action</a>
+						          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="#">Something else here</a>
+						        </div>
+						      </li>
+						      <li class="nav-item">
+						        <a class="nav-link disabled" href="#">Disabled</a>
+						      </li>
+						    </ul>
+						    <form class="form-inline my-2 my-lg-0">
+						      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						    </form>
+						  </div>
+						</nav>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+        <div class="clearfix"></div>
+        <div class="banner">
+        </div>
+        <script>
+            $(window).bind('scroll', function () {
+			    if ($(window).scrollTop() > 0) {
+			        $('.nav-top').addClass('fixed');
+			        
+			    } else {
+			        $('.nav-top').removeClass('fixed');
+			    }
+			});
+        </script>
+        <script src="public/js/bootstrap.min.js">
+        </script>
+    </body>
+</html>
