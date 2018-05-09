@@ -480,16 +480,13 @@ html, body {
     font-size:1.2em;
     color:#fff;
     text-transform:uppercase;
-    margin-bottom:2em;
+    margin-bottom:1em;
 }
 .w3_footer_grid ul.w3_footer_grid_list li{
     list-style-type: none;
-
-    padding-left: 2em;
-    background: url(../images/img-sp.png) no-repeat -14px -193px;
 }
 .w3_footer_grid ul.w3_footer_grid_list li a{
-    color:#999;
+
     text-decoration:none;
     text-transform:capitalize;
 }
