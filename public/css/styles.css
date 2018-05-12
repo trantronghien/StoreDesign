@@ -294,7 +294,7 @@ html, body {
         height: 100%;
     }
     .logo-menu-right {
-        background: yellow;
+        background: white;
         float: left;
         width: 70%;
         height: 100%;  
@@ -586,5 +586,12 @@ html, body {
 }
 .wthree_footer_copy p a:hover{
     color:#FA1818;
+}
+.thumb{
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 /*-- //footer --*/
